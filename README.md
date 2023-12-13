@@ -67,7 +67,7 @@ const connectToDB = async () => {
 connectToDB();
 ``````````````````````````````````````
 
-Server setup
+Server setup.
 Next, we create an app.js file for creating the server.
 Add this code to app.js file:
 
