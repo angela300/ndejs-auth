@@ -99,6 +99,11 @@ module.exports = app;
 Export the app to the index.js file
 Define a PORT in the dotenv file.
 
+``````````````````````````````````````
+MONGODB_URI = mongodb+srv://angela456:YIdqH3nQYqDdvstH@cluster0.19fkfhm.mongodb.net/?retryWrites=true&w=majority
+PORT = 5000
+``````````````````````````````````````
+
 Your index.js file wil appear like this: 
 ``````````````````````````````````````
 const app = require ("./app")
