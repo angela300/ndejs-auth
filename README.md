@@ -32,8 +32,8 @@ node_modules
 
 In the Database setup:
 We use the cloud based Mongo DB.
-Login to the dashboard on Cloud.mongodb.com
-Create a new project and database on the free tier
+Login to the dashboard on Cloud.mongodb.com, 
+Create a new project and database on the free tier. 
 Allow your database to be accessible to all IP addresses.
 Create a new connection, choose driver NodeJS, copy the connection string that comes up and paste it into your .env file
 
