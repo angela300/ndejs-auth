@@ -1,11 +1,4 @@
 **A simple Node Auth backend**
-
-This will include:
--	User Login and Signup
--	Request Authorization (JWT)
--	One-Time Pin System (OTP)
--	Email Verification (OTP)
--	Password Reset (OTP)
   
 **App and Database Set up:**
 
