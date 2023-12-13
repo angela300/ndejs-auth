@@ -38,7 +38,7 @@ Allow your database to be accessible to all IP addresses.
 Create a new connection, choose driver NodeJS, copy the connection string that comes up and paste it into your .env file
 
 connection string:
-"MONGO_DB_URI = mongodb+srv://angela456:<password>@cluster0.19fkfhm.mongodb.net/?retryWrites=true&w=majority"
+"MONGODB_URI = mongodb+srv://angela456:<password>@cluster0.19fkfhm.mongodb.net/?retryWrites=true&w=majority"
 
 Replace the password area, <password> with actual password for your database user.
 Make sure to also install MongoDB with ‘npm install mongodb’ command
