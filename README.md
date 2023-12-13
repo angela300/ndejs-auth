@@ -18,7 +18,7 @@ Initialize nodeJS project
 Install Express and other packages that we will need:
 'npm install express dotenv mongoose jsonwebtoken bcrypt nodemailer cors nodemon'
 
-initialize our project into our new git repository: git init
+initialize our project into our new git repository: 'git init'
 
 In the project's root director, create a new directory src, that will contain the code files.
 Create a .env file in the root directory, this file will contain all our secret keys and values.
