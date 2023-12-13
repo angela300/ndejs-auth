@@ -119,5 +119,5 @@ The script also contains the locations of our index.js file and will appear like
     "dev": "nodemon src/index.js"
   }
 ``````````````````````````````````````
-
+Test the connection with: 'npm run dev' command in your projct root
 
