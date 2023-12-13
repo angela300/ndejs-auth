@@ -20,7 +20,7 @@ Install Express and other packages that we will need:
 
 initialize our project into our new git repository: 'git init'
 
-In the project's root director, create a new directory src, that will contain the code files.
+In the project's root directory, create a new directory src, that will contain the code files.
 Create a .env file in the root directory, this file will contain all our secret keys and values.
 Also add a .gitignore file to check that, here, we specify that all files ending in .env should not be tracked, as well as the nodemodules folder
 Add this code to the.gitignore file:
