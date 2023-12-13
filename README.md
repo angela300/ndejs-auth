@@ -8,6 +8,7 @@ This will include:
 -	Password Reset (OTP)
   
 **App and Database Set up:**
+
 Create the project directory in Vscode
 'mkdir nodejs-auth'
 
