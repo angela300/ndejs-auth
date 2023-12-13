@@ -65,13 +65,13 @@ const connectToDB = async () => {
 };
 
 connectToDB();
-``````````````````````````````````
+``````````````````````````````````````
 
 Server setup
 Next, we create an app.js file for creating the server.
 Add this code to app.js file:
 
-````````````````````````````````
+``````````````````````````````````````
 //MongoDb
 require("./config/db")
 
@@ -91,13 +91,13 @@ app.use(cors())
 app.use(bodyParser());
 
 module.exports = app;
-````````````````````````````````````````
+``````````````````````````````````````
 
 Export the app to the index.js file
 Define a PORT in the dotenv file.
 
 Your index.js file wil appear like this: 
-````````````````````````````````````````````
+``````````````````````````````````````
 const app = require ("./app")
 const { PORT } = process.env;
 
@@ -108,16 +108,16 @@ const startApp = () => {
 };
 
 startApp();
-``````````````````````````````````
+``````````````````````````````````````
 
 In the package.json, add a script to run the app:
 The script will use the nodemon package which enables the app to continuously run and refresh in the background.
 The script also contains the locations of our index.js file and will appear like this:
 
-``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+``````````````````````````````````````
   "scripts": {
     "dev": "nodemon src/index.js"
   }
-``````````````````````````````````````````
+``````````````````````````````````````
 
 
