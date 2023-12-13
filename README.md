@@ -1,4 +1,5 @@
 **A simple Node Auth backend**
+
 This will include:
 -	User Login and Signup
 -	Request Authorization (JWT)
