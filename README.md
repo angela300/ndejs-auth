@@ -6,6 +6,7 @@
 -	One-Time Pin System (OTP)
 -	Email Verification (OTP)
 -	Password Reset (OTP)
+  
 **App and Database Set up:**
 
 Create the project directory in Vscode
