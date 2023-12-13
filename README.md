@@ -20,12 +20,15 @@ Install Express and other packages that we will need:
 
 initialize our project into our new git repository: 'git init'
 
-In the project's root directory, create a new directory src, that will contain the code files.
-Create a .env file in the root directory, this file will contain all our secret keys and values.
-Also add a .gitignore file to check that, here, we specify that all files ending in .env should not be tracked, as well as the nodemodules folder
+In the project's root directory, create a new directory, 'src' folder, that will contain the code files.
+Create a '.env' file in the root directory, this file will contain all our secret keys and values.
+Also add a '.gitignore' file to check that, here, we specify that all files ending in .env should not be tracked, as well as the nodemodules folder
 Add this code to the.gitignore file:
+
+``````````````````````````````````````
 *.env
 node_modules
+``````````````````````````````````````
 
 In the Database setup:
 We use the cloud based Mongo DB.
@@ -42,8 +45,10 @@ Make sure to also install MongoDB with ‘npm install mongodb’ command
 In the src directory create another directory, ‘config’ for configurations.
 In this new directory, create a new file, ‘db.js’ for database configurations.
 In the db.js file, require the dotenv file and configure it:
-Add this code to the.env file,
+Add this code to the db.js file,
+``````````````````````````````````````
 require ("dotenv").config();
+``````````````````````````````````````
 
 The above code will enable us access the connection string in the ‘dotenv’ file
 Add a ‘Mongoose’ package in the db.js file as it will help us interact with the database.
